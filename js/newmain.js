@@ -36,9 +36,7 @@ the_span.appendChild(node);
 item.appendChild(the_span);
 /* make the image for the delete button and attach it to the list item element */
 deleteButtonImage = document.createElement("img");
-deleteButtonImage.setAttribute("src", "https://s3-us-west-2.amazonaws.com/s.cdpn.io/53676/1411117915_cross-24-16.png ");
-deleteButtonImage.setAttribute("alt", "[X]");
-deleteButtonImage.setAttribute("class", "deleteListItem");
+deleteButtonImage.setAttribute("src", "https://s3-us-west-2.amazonaws.com/s.cdpn.io/53676/1411117915_cross-24-16.png", "alt", "[X]", "class", "deleteListItem");
 deleteButtonImage.addEventListener("click", removeListItem);
 item.appendChild(deleteButtonImage);
 /* attach the list item to the list */
